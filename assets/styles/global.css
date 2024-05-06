@@ -1,0 +1,19 @@
+@import url(header/header.css);
+@import url(section/setcion.css);
+
+:root{
+    --dark-blue100: #2F3349;
+    --dark-blue200: #25293C;
+    --white-00: #FFFFFF; 
+    
+    --purple-50: #7367F0;
+    --purple-500: #4F37AC;
+}
+
+
+
+body{
+    background-color: var(--dark-blue200);
+    color: var(--white-00);
+    font-family: Inter, sans-serif;
+}

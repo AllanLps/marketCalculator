@@ -1,0 +1,19 @@
+header {
+    background-color: var(--dark-blue100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 2rem;
+}
+
+header img{
+    width: 4vh;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0.5rem;
+}
+

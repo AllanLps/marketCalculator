@@ -1,0 +1,67 @@
+section {
+    background-color: var(--dark-blue100);
+    border-radius: 6px;
+    
+    max-width: 30vw;
+    margin: auto;
+ 
+}
+
+.sectionBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 400px;
+    
+    
+}
+
+.sectionBtn button {
+    background-color: var(--purple-50);
+    border: none;
+    border-radius: 2px;
+    color: var(--white-00);
+    font-weight: bold;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+
+.sectionBtn button:hover {
+    background-color: var(--purple-500);
+    transition: ease-in-out 300ms;
+}
+
+
+
+.sectionDivs {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+}
+
+.sectionDivsContent {
+    padding: 1rem;
+    margin: auto;
+    
+}
+
+.sectionDivsContent-p {
+    margin-top: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sectionDivs-value {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+    
+}
+
+.sectionDivs-value p {
+    padding-right: 1rem;
+}
